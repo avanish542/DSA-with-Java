@@ -33,7 +33,8 @@
 //  Solid Rectangle by using function
 import java.util.*;
 public class PatterPrinting {
-    public static void Print_Solid(int a, int b){
+    public static void Print_Solid(int a, int b){ 
+        // int a, int b both are formal parameter 
         for(int i = 1; i<= a; i++){
             for(int j = 1; j<= b; j++){
                 System.out.print("*");
@@ -45,7 +46,8 @@ public class PatterPrinting {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        Print_Solid(a,b);            
+        Print_Solid(a,b); 
+         // a,b are the actual parameter   
     }
     
 }
