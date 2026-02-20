@@ -18,7 +18,7 @@ public class Array {
     }
 }
 
-// Passing an Array as Arguments
+// Passing an Array as Arguments ... Call by Reference
 // import java.util.*;
 // public class Array {
 //     public static void Update(int marks[]) {
