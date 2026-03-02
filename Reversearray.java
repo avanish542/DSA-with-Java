@@ -1,22 +1,24 @@
+
 import java.util.*;
 public class Reversearray {
     public static void getReverseArray(int numbers[]){
-       int start = 0;
-       int end = numbers.length-1;
-       while(start < end){
-          int Temp = numbers[end];
-          numbers[end] = numbers[start];
-         numbers[start] = Temp;
-          start++;
-          end--;
-        } 
+        int first = 0;
+        int last = numbers.length-1;
+        while(first < last){
+            int temp = numbers[last];
+            numbers[last] = numbers[first];
+            numbers[first] = temp;
+            first++;
+            last--;
+        }
     }
     public static void main(String args[]){
-        int numbers[] = {2,4,6,8,10, 14};
+        int numbers[] = {2,4,6,8,10,12,14,16,18,20};
         getReverseArray(numbers);
-        for(int i = 0; i < numbers.length; i++){
-            System.out.print(numbers[i] +" ");
+        for(int i = 0; i<numbers.length; i++){
+            System.out.print(numbers[i] + " ");
         }
         System.out.println();
     }
+   
 }
