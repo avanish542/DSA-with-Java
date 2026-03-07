@@ -9,8 +9,10 @@ public class Substrings {
     public static void main(String args[]){
         String str = "HELLOWORLD";
         System.out.println(Substring(str,0,5));
+        // System.out.println(str.Substring(0,5));
     }
 }
 
-Output:
-HELLO
+// Output:
+// HELLO
+
