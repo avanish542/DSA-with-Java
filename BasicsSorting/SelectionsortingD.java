@@ -1,11 +1,11 @@
-// This code is for Asending order of Output
+// This code is for the descending order of output
 import java.util.*;
-public class SelectionSorting {
+public class SelectionsortingD {
     public static void Selection_sort(int arr[]){
         for(int i = 0; i<arr.length-1; i++){
             int minPos = i;
             for(int j = i+1; j<arr.length; j++){
-                if(arr[minPos]>arr[j]){
+                if(arr[minPos]<arr[j]){
                     minPos = j;
                 }
             }
@@ -28,4 +28,8 @@ public class SelectionSorting {
 }
 
 // Output
-// 1 2 3 4 5 6 
+// 6 5 4 3 2 1 
+
+// Changes only in * line
+// In place of >
+// We use this <
